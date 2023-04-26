@@ -5,11 +5,11 @@
 #
 
 # Crypto
-MITHORIUM_INCLUDE_CRYPTO_FDE := true
-MITHORIUM_LEGACY_CRYPTO := true
+MITITANIUM_INCLUDE_CRYPTO_FDE := true
+MITITANIUM_LEGACY_CRYPTO := true
 
-# Inherit from mithorium-common
-$(call inherit-product, device/xiaomi/mithorium-common/mithorium.mk)
+# Inherit from common mititanium
+$(call inherit-product, device/xiaomi/mititanium/mititanium.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

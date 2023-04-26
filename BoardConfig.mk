@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from common mithorium-common
-include device/xiaomi/mithorium-common/BoardConfigCommon.mk
+# Inherit from common mititanium
+include device/xiaomi/mititanium/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/vince
 
